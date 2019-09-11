@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="show">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {box-sizing:border-box}
+        html.show {border: 4px solid purple}
+        .show body {border: 2px solid orange; padding: 10px;margin:10px;}
+        .show p,.show h1,.show h2,.show h3 {border: 2px solid blue;padding: 10px;margin:10px;}
+        .show img {border: 2px solid green;padding: 10px;margin:10px;}
+        .show ul, .show ol {border: 2px solid purple;padding: 10px;margin:10px;}
+        .show li{border: 2px solid red;padding: 10px;margin:10px;}
+        .show span, .show a,.show strong,.show em,
+        .show input,.show textarea,.show label{border: 2px solid green;padding: 5px;margin:5px;display: inline-block;}
+        .show [type=radio],.show [type=checkbox] {outline: 2px solid green;}
+    </style>
+</head>
+<body>
+    <h1>hello world</h1>
+    <p>Lorem ipsum dolor sit.</p>
+    <!-- div.main // tag with a class -->
+    <div class="main"></div>
+    <!-- (h1>lorem2)+(img.logo[src=#]) -->
+    <h2>Lorem, ipsum.</h2>
+    <img src="http://placehold.it/200x175" alt="" class="logo">
+    <img src="http://placehold.it/200x175" alt="" class="logo">
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, non!</p>
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Et, porro eveniet!</li>
+        <li>Quaerat, adipisci aspernatur!</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis <span>ullam ipsa</span> natus neque necessitatibus, <a href="#link">voluptate quas</a> odit quis ratione iure dolorem in voluptatum perspiciatis corrupti.</p>
+    <h3>Obcaecati eveniet harum</h3>
+    <p>Lorem ipsum dolor, <em>sit amet consectetur adipisicing elit. Obcaecati eveniet harum</em> temporibus voluptate velit. Delectus dignissimos qui animi tenetur. Suscipit labore dolore rem! Placeat, aspernatur.</p>
+    <ol>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Distinctio iste maxime sed?</li>
+        <li>Tempore harum repellendus sunt!</li>
+    </ol>
+    <p><em>Lorem ipsum dolor</em> sit amet consectetur adipisicing elit. <span>Voluptatem illum</span> <span>ipsum suscipit</span> <span>incidunt ratione nostrum</span>. Voluptatibus inventore modi aspernatur enim praesentium <strong>pariatur</strong> qui itaque odio.</p>
+    <form action="#link">
+        <p>
+            <label for="username">username:</label>
+            <input type="text" name="username" id="username">
+        </p>
+        <p>
+            <label for="password">password:</label>
+            <input type="password" name="password" id="password">
+        </p>
+        <p>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            Please choose a size:<br>
+            <input type="radio" name="shirt" id="shirt"> small
+            <input type="radio" name="shirt" id="shirt"> medium
+            <input type="radio" name="shirt" id="shirt"> large
+        </p>
+        <p>
+            Please choose an option:<br>
+            <input type="checkbox" name="shirt" id="shirt"> gift wrapped
+            <input type="checkbox" name="shirt" id="shirt"> gift receipt
+            <input type="checkbox" name="shirt" id="shirt"> gift email
+        </p>
+        <p>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </p>        
+    </form>
+</body>
+</html>

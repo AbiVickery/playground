@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	margin:30px auto 0;
+	width: 600px;
+	height: 600px;
+	background: #000;
+}
+
+.block {
+    /* overflow: hidden; */
+	width: 200px;
+	height: 200px;
+	background: red;
+	color: #fff;
+	font-family: sans-serif, 'Courier New', Courier, monospace;
+	font-size: 36px;
+	text-align: center;
+	line-height: 200px;
+	float: left;
+}
+
+.block--one {
+    background: purple;
+    /* float: right; */
+}
+.block--two { 
+    background: green;
+    /* height: 100px; */
+    /* float: left; */
+}
+.block--three {
+	background: orange;
+}
+.block--four {
+	background: blue;
+}
+.block--five {
+	background: red;
+}
+.block--six {
+	background: yellow;
+	/* display: none; */
+}
+.block--seven {
+    background: cyan;
+    /* display: none;  */
+}
+.block--eight {
+    background: chocolate;
+    /* display: none;  */
+}
+.block--nine {
+    overflow: hidden;
+    background: black;
+    height: 103px;
+    /* display: none;  */
+}
+
+.block--temp {
+	width: 100px;
+	height: 100px;
+	background: brown;
+	display: none;
+}
+
+.clear {
+	display: table;
+	clear: both;
+	height: 0;
+	width: 0;
+	content: '';
+}
